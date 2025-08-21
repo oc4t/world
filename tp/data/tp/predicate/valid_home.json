@@ -1,0 +1,14 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "home": {
+        "min": 1,
+        "max": {
+          "type": "minecraft:storage",
+          "storage": "tp:player_data",
+          "path": "max_homes"
+        }
+      }
+    }
+  }

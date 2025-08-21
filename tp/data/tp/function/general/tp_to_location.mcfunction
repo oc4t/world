@@ -1,0 +1,1 @@
+$function tp:general/tp with storage tp:player_data players[{id:$(playerid)}].$(type)[{id:$(id)}]

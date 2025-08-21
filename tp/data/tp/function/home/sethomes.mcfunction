@@ -1,0 +1,1 @@
+$data modify storage tp:temp home set from storage tp:player_data players[{id:$(playerid)}].home

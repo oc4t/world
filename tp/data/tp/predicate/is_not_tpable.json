@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": [
+        "player",
+        "item_frame",
+        "painting",
+        "area_effect_cloud",
+        "armor_stand",
+        "minecraft:block_display",
+        "minecraft:item_display",
+        "minecraft:text_display"
+      ]
+    }
+  }

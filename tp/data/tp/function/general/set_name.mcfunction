@@ -1,0 +1,2 @@
+loot replace entity 00000070-0000-006e-0000-007400000078 container.0 loot tp:entity/player_head
+$data modify storage tp:player_data players[{id:$(playerid)}].name set from entity 00000070-0000-006e-0000-007400000078 in minecraft:overworld item.components.minecraft:profile.name

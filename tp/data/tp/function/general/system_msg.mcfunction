@@ -1,0 +1,1 @@
+$tellraw $(selector) [{"text":"[","color":"#678feb"},{"text":"System","color":"#af87f5"},{"text":"] ","color":"#678feb"},{"text":"$(text)","color":"$(color)"}]

@@ -1,0 +1,3 @@
+$execute if data storage tp:temp warp[0].warp run tellraw @s [{"text":"[$(id)] ","color":"#4c74c9"},{"text":"$(name) ","color":"#ffffff"},{"text":"Teleport","underlined":true,"color":"#eeb845","clickEvent":{"action":"run_command","value":"/trigger warp set $(id)"}}]
+data remove storage tp:temp warp[0]
+execute if data storage tp:temp warp[0] run function tp:warp/warp_msg with storage tp:temp warp[0]

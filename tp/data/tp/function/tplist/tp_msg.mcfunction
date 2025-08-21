@@ -1,0 +1,1 @@
+$execute as @s run tellraw $(name) [{"text":"[$(playerid)] ","color":"#4c74c9"},{"selector":"@s","color":"#ffffff"},{"text":" "},{"text":"Teleport","underlined":true,"color":"#eeb845","clickEvent":{"action":"run_command","value":"/trigger tp set $(playerid)"}}]
